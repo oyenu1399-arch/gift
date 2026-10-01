@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#09030f" />
+  <title>Happy 1 Oktober, My Girl ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="stars" aria-hidden="true"></div>
+
+  <!-- Opening -->
+  <section id="opening" class="opening-screen">
+    <div class="opening-glow"></div>
+    <p class="eyebrow">HARI GIRLFRIEND 1 OKTOBER</p>
+    <h1>Untukmu,<br><em>sayangku.</em></h1>
+    <p class="opening-copy">Hari ini aku ingin bilang,<br>kamu orang paling istimewa yang pernah hadir dalam hidupku.</p>
+    <button id="enterBtn" class="primary-btn">Buka hadiah <span>→</span></button>
+    <p class="hint">selamat hari girlfriend, 1 oktober ♪</p>
+  </section>
+
+  <!-- Main app -->
+  <main id="app" class="app hidden">
+    <header class="topbar">
+      <a class="brand" href="#home" data-page="home">✦ <span>semesta kita</span></a>
+      <button id="musicToggle" class="music-toggle" aria-label="Alihkan musik">
+        <span class="music-bars"><i></i><i></i><i></i></span>
+        <span id="musicLabel">Musik mati</span>
+      </button>
+    </header>
+
+    <section id="home" class="page active-page">
+      <div class="hero">
+        <div class="hero-orb"></div>
+        <p class="eyebrow">SELAMAT HARI GIRLFRIEND 1 OKTOBER</p>
+        <h2>Untukmu,<br><em>yang paling kusayangi.</em></h2>
+        <p class="hero-copy">Aku ingin kamu tahu betapa berharganya kamu bagiku.<br>Hari ini, aku hanya ingin mengingatkanmu betapa spesialnya kamu.</p>
+      </div>
+
+      <div class="choice-grid">
+        <button class="choice-card journey" data-page="journey">
+          <span class="card-number">01</span><span class="card-icon">✦</span>
+          <span class="card-title">Kenangan</span>
+          <span class="card-sub">cerita kita yang berharga</span><span class="card-arrow">↗</span>
+        </button>
+        <button class="choice-card moments" data-page="moments">
+          <span class="card-number">02</span><span class="card-icon">♡</span>
+          <span class="card-title">Kamu</span>
+          <span class="card-sub">alasan aku bahagia setiap hari</span><span class="card-arrow">↗</span>
+        </button>
+        <button class="choice-card playlist" data-page="playlist">
+          <span class="card-number">03</span><span class="card-icon">♫</span>
+          <span class="card-title">Untukmu</span>
+          <span class="card-sub">lagu yang menggambarkan kita</span><span class="card-arrow">↗</span>
+        </button>
+        <button class="choice-card gift" data-page="gift">
+          <span class="card-number">04</span><span class="card-icon">🎁</span>
+          <span class="card-title">Surat</span>
+          <span class="card-sub">pesan istimewa untukmu</span><span class="card-arrow">↗</span>
+        </button>
+      </div>
+      <p class="footer-note">dibuat dengan cinta untukmu <span>✦</span></p>
+    </section>
+
+    <section id="journey" class="page inner-page">
+      <button class="back-btn" data-page="home">← Kembali</button>
+      <div class="page-heading"><p class="eyebrow">BAGIAN PERTAMA</p><h2>Kenangan <em>kita.</em></h2><p>Setiap hari bersamamu terasa seperti momen yang sengaja dibuat Tuhan untukku.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="dot"></div><span class="date">AWAL</span><h3>Kamu hadir begitu saja</h3><p>Tanpa aku sangka, kamu datang seperti cahaya kecil yang membuat hari-hari yang biasa terasa lebih indah.</p></article>
+        <article class="timeline-item"><div class="dot"></div><span class="date">HARI-HARI</span><h3>Tawa yang tak pernah terasa berat</h3><p>Dari obrolan santai hingga momen sederhana, kamu membuat hidupku terasa lebih tenang, lebih hangat, dan lebih berarti.</p></article>
+        <article class="timeline-item"><div class="dot"></div><span class="date">1 OKTOBER</span><h3>Hari ini, aku ingin kamu tahu</h3><p>Engkaulah alasan aku merasa bersyukur. Kamu bukan sekadar orang spesial, kamu adalah rumah yang paling aku rindukan.</p></article>
+      </div>
+    </section>
+
+    <section id="moments" class="page inner-page">
+      <button class="back-btn" data-page="home">← Kembali</button>
+      <div class="page-heading"><p class="eyebrow">BAGIAN KEDUA</p><h2>Kamu <em>adalah momen paling indah.</em></h2><p>Hal-hal kecil yang aku suka adalah kamu yang hadir di hidupku.</p></div>
+      <div class="photo-grid">
+        <figure class="photo-card tall"><div class="photo photo-1"></div><figcaption><span>01</span> senyum yang buat hari jadi lebih ringan</figcaption></figure>
+        <figure class="photo-card"><div class="photo photo-2"></div><figcaption><span>02</span> tawa yang aku rindukan</figcaption></figure>
+        <figure class="photo-card"><div class="photo photo-3"></div><figcaption><span>03</span> perhatian yang selalu membuatku tenang</figcaption></figure>
+        <figure class="photo-card wide"><div class="photo photo-4"></div><figcaption><span>04</span> dan semua alasan yang membuatku ingin terus memilihmu</figcaption></figure>
+      </div>
+    
+    </section>
+
+    <section id="playlist" class="page inner-page">
+      <button class="back-btn" data-page="home">← Kembali</button>
+      <div class="page-heading"><p class="eyebrow">BAGIAN KETIGA</p><h2>Untukmu,<br><em>yang paling kusuka.</em></h2><p>Kalau ada satu lagu yang paling pas untuk hari ini, itu adalah lagu yang mengingatkanku pada kamu.</p></div>
+      <div class="playlist-wrap">
+        <div class="album-art"><span>✦</span><strong>my<br>favorite<br>girl</strong><small>volume 01</small></div>
+        <div class="songs">
+          <button class="song active" data-src="1.mp3" data-title="Lagu pertama"><span>01</span><b>Untukmu</b><small>karena kamu spesial</small><i>▶</i></button>
+          <button class="song" data-src="2.mp3" data-title="Lagu malam hari"><span>02</span><b>Selalu mengingatmu</b><small>di setiap waktu</small><i>▶</i></button>
+          <button class="song" data-src="3.mp3" data-title="Lagu kebanggaan kita"><span>03</span><b>Hari yang lebih indah</b><small>karena kamu hadir</small><i>▶</i></button>
+          <button class="song" data-src="4.mp3" data-title="Sampai bab berikutnya"><span>04</span><b>Selamanya</b><small>untukmu, sayang</small><i>▶</i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gift" class="page inner-page gift-page">
+      <button class="back-btn" data-page="home">← Kembali</button>
+      <div class="gift-content">
+        <p class="eyebrow">BAGIAN TERAKHIR</p>
+        <div id="giftBox" class="gift-box" role="button" tabindex="0" aria-label="Buka hadiah">🎁</div>
+        <h2>Selamat <em>Hari Girlfriend</em> 1 Oktober.</h2>
+        <p id="giftInstruction">Ada surat kecil untukmu di sini.<br>Klik hadiahnya saat kamu siap.</p>
+        <div id="letter" class="letter hidden-letter">
+          <span class="letter-mark">✦</span>
+          <p>Hai, sayang.</p>
+          <p>Hari ini, 1 Oktober, aku hanya ingin bilang bahwa kamu itu sangat istimewa. Kamu membawa banyak kehangatan, tawa, dan rasa tenang ke dalam hidupku.</p>
+          <p>Terima kasih sudah menjadi bagian dari hari-hariku, menjadi tempatku pulang, dan menjadi alasan aku selalu ingin lebih baik. Kamu adalah perempuan yang paling aku hargai, paling aku sayangi, dan paling aku inginkan di setiap langkah hidupku.</p>
+          <p>Selamat Hari Girlfriend 1 Oktober. Semoga hari ini, dan hari-hari selanjutnya, kamu selalu merasa dicintai, dihargai, dan disayangi dengan tulus.</p>
+          <p class="signature">Dengan cinta,<br><em>orang yang selalu memilihmu ♡</em></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">© 2026 · happy 1 oktober · made with love ♡</footer>
+  </main>
+
+  <audio id="audio" preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
